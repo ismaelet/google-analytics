@@ -1,0 +1,8 @@
+{
+	"name": "ismaelet/google-analytics",
+	"autoload": {
+		"psr-4": {
+			"Ismaelet\\Google\\Analytics\\": "src"
+		}
+	}
+}
