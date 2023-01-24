@@ -20,7 +20,7 @@ class Api {
 	function gtag(){dataLayer.push(arguments);}
 	gtag(\'js\', new Date());
 
-	gtag(\'config\', ' . $googleMeasurementId . ');
+	gtag(\'config\', \'' . $googleMeasurementId . '\');
 </script>';
 		}
 	}
